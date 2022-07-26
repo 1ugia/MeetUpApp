@@ -1,7 +1,8 @@
-package com.masgray.findfriends
+package com.masgray.findfriends.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.masgray.findfriends.R
 
 class FindFriendsActivity : AppCompatActivity(){
 
