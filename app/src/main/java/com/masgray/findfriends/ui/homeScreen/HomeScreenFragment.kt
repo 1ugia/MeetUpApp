@@ -34,7 +34,7 @@ class HomeScreenFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonFirst.setOnClickListener {
-            findNavController().navigate(R.id.action_HomeScreenFragment_to_FindFriendsFragment)
+            findNavController().navigate(R.id.action_HomeScreenFragment_to_findFriendsActivity)
         }
     }
 

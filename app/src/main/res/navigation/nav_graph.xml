@@ -12,16 +12,13 @@
         tools:layout="@layout/fragment_home_screen">
 
         <action
-            android:id="@+id/action_HomeScreenFragment_to_FindFriendsFragment"
-            app:destination="@id/FriendsListFragment" />
+            android:id="@+id/action_HomeScreenFragment_to_findFriendsActivity"
+            app:destination="@id/findFriendsActivity" />
     </fragment>
-    <fragment
-        android:id="@+id/FriendsListFragment"
-        android:name="com.masgray.findfriends.ui.friendsList.FriendsListFragment"
-        android:label="@string/find_friends_fragment_label">
 
-<!--        <action-->
-<!--            android:id="@+id/action_FriendsListFragment_to_HomeScreenFragment"-->
-<!--            app:destination="@id/HomeScreenFragment" />-->
-    </fragment>
+    <activity
+        android:id="@+id/findFriendsActivity"
+        android:name="com.masgray.findfriends.activities.FindFriendsActivity"
+        />
+
 </navigation>
