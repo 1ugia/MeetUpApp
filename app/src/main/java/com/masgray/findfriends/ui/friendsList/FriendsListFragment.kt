@@ -4,6 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.compose.foundation.layout.Box
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Text
 import androidx.fragment.app.Fragment
 import com.masgray.findfriends.databinding.FragmentFriendsListScreenBinding
 
@@ -25,13 +28,17 @@ class FriendsListFragment : Fragment() {
     ): View? {
 
         _binding = FragmentFriendsListScreenBinding.inflate(inflater, container,false)
+        binding.composeView.setContent { //sets content of view in xml file
+            MaterialTheme {
+                Box{
+                    Text(text = "1st box")
+                }
+            }
+        }
         return binding.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        binding.textView2.text = "MESSAGE"
-    }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
