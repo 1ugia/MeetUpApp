@@ -4,7 +4,7 @@
     <!-- Strings used for fragments for navigation -->
     <string name="home_screen_label">Home Screen Fragment</string>
     <string name="find_friends_fragment_label">Find Friends Fragment</string>
-    <string name="next">Next</string>
+    <string name="FindFriendsButton">Find Friends</string>
     <string name="previous">Previous</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>

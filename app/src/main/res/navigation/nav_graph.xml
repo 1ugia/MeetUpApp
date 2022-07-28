@@ -20,8 +20,8 @@
         android:name="com.masgray.findfriends.ui.friendsList.FriendsListFragment"
         android:label="@string/find_friends_fragment_label">
 
-        <action
-            android:id="@+id/action_FriendsListFragment_to_HomeScreenFragment"
-            app:destination="@id/HomeScreenFragment" />
+<!--        <action-->
+<!--            android:id="@+id/action_FriendsListFragment_to_HomeScreenFragment"-->
+<!--            app:destination="@id/HomeScreenFragment" />-->
     </fragment>
 </navigation>

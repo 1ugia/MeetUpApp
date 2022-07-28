@@ -1,8 +1,6 @@
 package com.masgray.findfriends.activities
 
-import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.masgray.findfriends.R
 
@@ -12,14 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val findfriendbtn = findViewById<Button>(R.id.findFriendButton)
-        findfriendbtn.setOnClickListener {
-            val intent = Intent(this, FindFriendsActivity::class.java)
-            startActivity(intent)
-        }
     }
-
 }
+
 
 //def noise(animal)
 //            if animal == "cat"
@@ -56,3 +49,10 @@ class MainActivity : AppCompatActivity() {
 //        println(fluff)
 //
 //        fluff = noise("cat")
+
+/*
+make list of data
+- stack over flow
+- how to shoe a list of data on android.
+
+ */
